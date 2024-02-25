@@ -53,8 +53,58 @@
 }
 
 .projects-container{
+    width: 100%;
+    background-image: linear-gradient(#282833 0%, #343449 20%, #66B4FF 95%, #67B3FF 100%)
+}
+
+.projects-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.projects-title{
+    font-size: 55px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    grid-column: 1 / 4;
+}
+
+.hr{
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    border-color: rgb(140, 140, 140)
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 50px;
+}
+
+.canoe-footer {
     position: relative;
     width: 100%;
-    height: 700px;
-    background-color: #1a1a2a;
+}
+
+.canoe-footer-transition {
+    position: absolute;
+    top: -1px;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(#67B3FF, transparent)
+}
+
+.canoe-footer-image {
+    position: relative;
+    top: 0px;
+    width: 100%;
 }

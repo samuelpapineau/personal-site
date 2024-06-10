@@ -11,6 +11,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import { Header } from "@/components/Header/Header";
 import { Searchbar } from "@/components/Searchbar/Searchbar";
 import { Card } from "@/components/Card/Card";
+import { Timeline } from "@/components/Timeline/Timeline";
 
 export default function Home() {
 	return (

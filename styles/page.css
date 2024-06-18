@@ -2,13 +2,14 @@
     position: relative;
     width: 100%;
     height: 700px;
-    background-color: #282833;
+    background-image: radial-gradient(circle, #00414f, #153a4b, #203445, #262d3c, #282833);
+    /*background-color: #282833;*/
 }
 
 .profile-picture{
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    aspect-ratio: 1;
     border-radius: 50%;
     top: 200px;
     right: 15%;
@@ -53,16 +54,7 @@
 }
 
 .projects-container{
-    width: 100%;
-    background-image: linear-gradient(#282833 0%, #343449 20%, #66B4FF 95%, #67B3FF 100%)
-}
-
-.projects-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 100px;
+    background-image: linear-gradient(#282833 0%, #343449 20%, #66B4FF 95%, #67B3FF 100%);
 }
 
 .projects-title{
@@ -72,6 +64,10 @@
     padding-left: 20px;
     padding-bottom: 50px;
     grid-column: 1 / 4;
+    text-align: center;
+    margin: auto;
+    left: 0px;
+    right: 0px;
 }
 
 .hr{
@@ -84,7 +80,7 @@
 
 .card-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     padding: 50px;
 }
@@ -114,4 +110,73 @@
     width: 100%;
     height: 600px;
     background-color: #282833;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .profile-button{
+        margin: auto;
+        top: 600px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .profile-description{
+        text-align: center;
+        margin: auto;
+        top: 500px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .profile-name{
+        top: 400px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .profile-picture{
+        top: 100px;
+        margin: auto;
+        left: 0px;
+        right: 0px;
+    }
+    .profile-name{
+        margin-top: 300px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .profile-name{
+        padding-top: 40px;
+        font-size: 30px;
+    }
+
+    .profile-description{
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .projects-title{
+        font-size: 30px;
+        padding-top: 0px
+    }
+
+    .hr{
+        top: 10px;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    
 }

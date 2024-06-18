@@ -22,7 +22,7 @@ async function get_data(data: any) {}
 
 export const Card = async (data: any) => {
 	let json = JSON.parse(fs.readFileSync(data.data, 'utf8'));
-	//console.log(json[0]);
+
 	let project = json[0].data;
 
 	let card = new Project(project.title, project.description, project.image_url, project.image_alt, project.year);
@@ -40,10 +40,3 @@ export const Card = async (data: any) => {
 };
 
 export default Card;
-
-
-/*
-- figure out component parameters client side
-- figure out component parameters server side
-- figure out how to use ts variables in the html code
-*/

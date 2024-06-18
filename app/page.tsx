@@ -16,22 +16,28 @@ import { Timeline } from "@/components/Timeline/Timeline";
 export default function Home() {
 	return (
 		<>
-			<Header />
+			{/*<Header />*/}
 			<Navbar />
 			<div className="profile-container">
 				<h1 className="profile-name">Samuel Papineau</h1>
 				<p className="profile-description">Front-end web developer, web designer, and hobby software developer.</p>
 				<button className="profile-button">About Me</button>
-				<img className="profile-picture" src="image/Sam_Canoe.jpg" alt="Sam in a canoe" />
+				<img className="profile-picture" src="image/profile.jpg" alt="Sam in a canoe" />
 			</div>
 			<div className="projects-container">
 				<hr className="hr"></hr>
-				<div className="projects-cards">
-					<div className="card-container">
-						<h1 className="projects-title">Some of my <br></br>projects:</h1>
-						<Card data="public/projects/Mooshrum_Bot.json" />
-						<Card data="public/projects/Math_Game.json" />
-					</div>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				{/*Remove br elements later*/}
+				<h1 className="projects-title">Some of my <br></br>projects:</h1>
+				<div className="card-container">
+					<div className="red"><Card data="public/projects/Mooshrum_Bot.json" /></div>
+					<div className="red"><Card data="public/projects/Math_Game.json" /></div>
+					<div className="red"><Card data="public/projects/Spyglass.json" /></div>
 				</div>
 			</div>
 			<div className="canoe-footer">

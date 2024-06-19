@@ -20,7 +20,7 @@ async function get_data(data: any) {}
 
 
 
-export const Card = async (data: any) => {
+export const Card = (data: any) => {
 	let json = JSON.parse(fs.readFileSync(data.data, 'utf8'));
 
 	let project = json[0].data;

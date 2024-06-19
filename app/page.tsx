@@ -1,17 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/page.css";
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
-import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
 import { Navbar } from "@/components/Navbar/Navbar";
-import { Header } from "@/components/Header/Header";
-import { Searchbar } from "@/components/Searchbar/Searchbar";
 import { Card } from "@/components/Card/Card";
-import { Timeline } from "@/components/Timeline/Timeline";
 import { Contact } from "@/components/Contact/Contact";
 import mooshrum from "@/public/projects/Mooshrum_Bot.json";
 import math_game from "@/public/projects/Math_Game.json";

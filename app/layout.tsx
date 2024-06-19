@@ -5,6 +5,8 @@ import { fontSans } from "@/config/fonts";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,

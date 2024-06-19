@@ -1,5 +1,8 @@
 import './Card.scss';
-import fs from 'fs';
+/*import fs from 'fs';*/
+
+export const runtime = 'edge';
+
 class Project {
 	title: string;
 	description: string;
@@ -16,14 +19,8 @@ class Project {
 	}
 }
 
-async function get_data(data: any) {}
-
-
-
 export const Card = (data: any) => {
-	let json = JSON.parse(fs.readFileSync(data.data, 'utf8'));
-
-	let project = json[0].data;
+	let project = data.data[0].data;
 
 	let card = new Project(project.title, project.description, project.image_url, project.image_alt, project.year);
 	return (

@@ -1,4 +1,7 @@
 import './Timeline.scss';
+
+export const runtime = 'edge';
+
 function time_worked(start_time: number, work_times: Object){
     let total_time =  Date.now() - start_time;
 

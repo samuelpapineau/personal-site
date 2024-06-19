@@ -17,7 +17,7 @@ const ContactForm = () => {
           alert('Failed to send the message, please try again.');
       });
   };
-*/
+*/export const runtime = 'edge';
 
 export const Contact = () => {
 

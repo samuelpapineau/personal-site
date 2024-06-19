@@ -13,6 +13,11 @@ import { Searchbar } from "@/components/Searchbar/Searchbar";
 import { Card } from "@/components/Card/Card";
 import { Timeline } from "@/components/Timeline/Timeline";
 import { Contact } from "@/components/Contact/Contact";
+import mooshrum from "@/public/projects/Mooshrum_Bot.json";
+import math_game from "@/public/projects/Math_Game.json";
+import spyglass from "@/public/projects/Spyglass.json";
+
+export const runtime = 'edge';
 
 export default function Home() {
 	return (
@@ -52,9 +57,9 @@ export default function Home() {
 				<div id="projects">
 					<h1 className="projects-title">Some of my <br></br>projects:</h1>
 					<div className="card-container">
-						<div><Card data="public/projects/Mooshrum_Bot.json" /></div>
-						<div><Card data="public/projects/Math_Game.json" /></div>
-						<div><Card data="public/projects/Spyglass.json" /></div>
+						<div><Card data={mooshrum}/></div>
+						<div><Card data={math_game} /></div>
+						<div><Card data={spyglass} /></div>
 					</div>
 				</div>
 			</div>

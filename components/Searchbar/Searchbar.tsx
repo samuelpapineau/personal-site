@@ -1,5 +1,7 @@
 import './Searchbar.scss';
 
+export const runtime = 'edge';
+
 export const Searchbar = () => {
 
 	return (

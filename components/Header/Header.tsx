@@ -1,5 +1,7 @@
 import './Header.scss';
 
+export const runtime = 'edge';
+
 export const Header = () => {
 
 	return (

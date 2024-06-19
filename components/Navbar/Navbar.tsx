@@ -1,5 +1,7 @@
 import './Navbar.scss';
 
+export const runtime = 'edge';
+
 export const Navbar = () => {
 
 	return (

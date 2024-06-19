@@ -19,7 +19,7 @@ export default function Home() {
 			{/*<Header />*/}
 			<Navbar />
 			<div className="profile-container">
-				<h1 className="profile-name">Hi! I'm Sam</h1>
+				<h1 className="profile-name">Hi! I&apos;m Sam</h1>
 				<p className="profile-description">Front-end web developer, web designer, and hobby software developer.</p>
 				<button className="profile-button">Contact Me</button>
 				<img className="profile-picture" src="image/profile.jpg" alt="Sam in a canoe" />

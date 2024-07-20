@@ -1,0 +1,12 @@
+[
+    {
+    "data": {
+        "title": "Substreams Inscriptions",
+        "description": "A tool that parses and extracts valid substreams inscriptions data from any blockchain.",
+        "image_url": "image/pinax_logo.png",
+        "image_alt": "Pinax logo",
+        "year": "2024",
+        "url": "https://github.com/pinax-network/substreams-inscriptions"
+    }
+}
+]

@@ -1,0 +1,12 @@
+[
+    {
+    "data": {
+        "title": "Discord Announcement Bot",
+        "description": "A discord bot that automatically posts a message when a json object is received via http request.",
+        "image_url": "image/discord-logo.png",
+        "image_alt": "Discord bot icon",
+        "year": "2024",
+        "url": "https://github.com/samuelpapineau/discord-announcement-bot"
+    }
+}
+]

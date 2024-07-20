@@ -2,11 +2,11 @@
     {
     "data": {
         "title": "Spyglass",
-        "description": "I built the API for the Spyglass transaction tracker.",
+        "description": "The API for the Spyglass transaction tracker.",
         "image_url": "image/spyglass.png",
-        "image_alt": "Spyglass Site Logo",
+        "image_alt": "Spyglass site logo",
         "year": "2023",
-        "url": "spyglass.network"
+        "url": "https://spyglass.network/"
     }
 }
 ]

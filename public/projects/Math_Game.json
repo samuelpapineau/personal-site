@@ -2,9 +2,9 @@
     {
     "data": {
         "title": "Math Game",
-        "description": "I made a simple math game where you have 20 seconds to solve basic formulas.",
+        "description": "A simple math game where you have 20 seconds to solve basic formulas.",
         "image_url": "image/Math_Game.png",
-        "image_alt": "Math Game Image",
+        "image_alt": "Image of math game",
         "year": "2019"
     }
 }

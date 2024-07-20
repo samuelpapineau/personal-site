@@ -1,0 +1,12 @@
+[
+    {
+    "data": {
+        "title": "Lyric Video Generator",
+        "description": "A program that will generate a video when supplied with a background imge, audio file, and lyric file.",
+        "image_url": "image/discord-logo.png",
+        "image_alt": "Discord bot icon",
+        "year": "2024",
+        "url": "https://github.com/samuelpapineau/lyric-video-generator"
+    }
+}
+]

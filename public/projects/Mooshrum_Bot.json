@@ -2,9 +2,9 @@
 {
     "data": {
         "title": "Mooshrum Bot",
-        "description": "The Mooshrum bot is a mini game for discord where you use the commands provided to farm digital mushrooms and sell them in a digital marketplace.",
+        "description": "The Mooshrum Bot is a mini game for discord where you use the commands provided to farm digital mushrooms and sell them in a digital marketplace.",
         "image_url": "image/Mooshrum.png",
-        "image_alt": "Mooshrum Bot Logo",
+        "image_alt": "Mooshrum bot logo",
         "year": "2020"
     }
 }

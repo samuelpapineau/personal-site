@@ -1,0 +1,12 @@
+[
+    {
+    "data": {
+        "title": "Substreams Sink Websockets",
+        "description": "substreams-sink-websockets is a tool that allows developers to pipe data extracted from a blockchain to WebSockets.",
+        "image_url": "image/pinax_logo.png",
+        "image_alt": "Pop token discord bot icon",
+        "year": "2023",
+        "url": "https://github.com/pinax-network/substreams-sink-websockets"
+    }
+}
+]

@@ -37,7 +37,7 @@ export default function Home() {
 				</p>
 				<p className="about-content">
 					In my free time I enjoy bouldering and hiking. I am an avid canoeist and love spending time outdoors with my friends and family.
-					I`&apos;`m passionate about the creation of things, which is the reason I love programming, and that passion also spills out in the art
+					I&apos;m passionate about the creation of things, which is the reason I love programming, and that passion also spills out in the art
 					I make and the objects I create or restore.
 				</p>
 			</div>

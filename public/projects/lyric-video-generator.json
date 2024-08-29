@@ -2,7 +2,7 @@
     {
     "data": {
         "title": "Lyric Video Generator",
-        "description": "A program that will generate a video when supplied with a background imge, audio file, and lyric file.",
+        "description": "A program that will generate a video when supplied with a background image, audio file, and lyric file.",
         "image_url": "image/discord-logo.png",
         "image_alt": "Discord bot icon",
         "year": "2024",

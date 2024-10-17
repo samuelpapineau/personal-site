@@ -31,7 +31,7 @@ export default function Home() {
 				</p>
 
 				<p className="about-content">
-					I&apos;m a self-taught frontent web developer with 10 years of hobby experience and two years of professional experience.
+					I&apos;m a self-taught frontend web developer with 10 years of hobby experience and two years of professional experience.
 					I have experience developing APIs, discord bots, web apps, and more. While my main focus is frontend,
 					I have backend experience from working with various database management systems, data sinks, and several personal projects.
 				</p>
